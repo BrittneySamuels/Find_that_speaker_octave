@@ -1,0 +1,1 @@
+function x=test(x)  display (x);end
