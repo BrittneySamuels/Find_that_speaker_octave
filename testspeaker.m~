@@ -1,0 +1,27 @@
+function [resultname,resultmax] = testspeaker
+  max = 0;
+  if(checkObama > 0 || checkObama < 0)
+    max = checkObama;
+    resultname = ("Obama is the speaker");
+    resultmax = disp(max);
+  elseif (checkDoraine > max)
+    max = checkDoraine;
+    resultname = disp("Doraine is the speaker");
+    resultmax = disp(max);
+  elseif (checkKevin > max)
+    max = checkKevin;
+    resultname = disp("Kevin is the speaker");
+    resultmax = disp(max);
+  elseif (checkNeville > max)
+    max = checkNeville;
+    resultname = disp("Neville is the speaker");
+    resultmax = disp(max);
+  elseif (checkLisa > max)
+    max = checkLisa;
+    resultname = disp("Lisa is the speaker");
+    resultmax = disp(max);
+  else 
+    resultname = disp("speaker not found");
+    resultmax = disp("no max");
+  end
+end
